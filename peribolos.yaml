@@ -20,3 +20,11 @@ orgs:
       .github:
         default_branch: main
         has_projects: true
+      sample-client-go:
+        default_branch: main
+        description: UOR sample Go gRPC client
+        has_projects: true
+      sample-client-python:
+        default_branch: main
+        description: UOR sample Python gRPC client
+        has_projects: true
