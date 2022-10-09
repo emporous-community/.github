@@ -20,6 +20,10 @@ orgs:
       .github:
         default_branch: main
         has_projects: true
+      ai-model-registry:
+        default_branch: main
+        description: UOR-based AI Model Registry
+        has_projects: true
       sample-client-go:
         default_branch: main
         description: UOR sample Go gRPC client
