@@ -36,3 +36,7 @@ orgs:
         default_branch: main
         description: UOR-based Python index generation and rendering
         has_projects: true
+      uor-fuse-go:
+        default_branch: main
+        description: FUSE driver to mount UOR collection to a directory
+        has_projects: true
