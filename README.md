@@ -1,3 +1,3 @@
 # .github
 
-UOR Community organization management
+Emporous Community organization management
