@@ -33,9 +33,9 @@ orgs:
         default_branch: main
         description: Emporous sample Python gRPC client
         has_projects: true
-      emporous-python-index:
+      emporous-pip:
         default_branch: main
-        description: Emporous-based Python index generation and rendering
+        description: Emporous-based Python index generation and rendering for pip
         has_projects: true
       emporous-fuse-go:
         default_branch: main
