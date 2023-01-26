@@ -16,7 +16,7 @@ orgs:
     has_repository_projects: true
     location: ""
     members_can_create_repositories: true
-    name: ""
+    name: "Emporous Community"
     repos:
       .github:
         default_branch: main
@@ -41,3 +41,67 @@ orgs:
         default_branch: main
         description: FUSE driver to mount Emporous collection to a directory
         has_projects: true
+    teams:
+      model-catalog:
+        description: "Community team for AI model catalog"
+        privacy: closed
+        maintainers:
+          - afflom
+          - jpower432
+          - usrbinkat
+        teams:
+          model-registry-maintainers:
+            description: "AI model catalog maintainers"
+            privacy: closed
+            maintainers:
+              - afflom
+              - jpower432
+              - usrbinkat
+            repos:
+              ai-model-registry: write
+      templates:
+        description: "Community team for sample gRPC client for Emporous API"
+        privacy: closed
+        maintainers:
+          - jpower432
+          - d10n
+        teams:
+          template-maintainers:
+            description: "Sample client maintainers"
+            privacy: closed
+            maintainers:
+              - jpower432
+              - d10n
+            repos:
+              sample-client-python: write
+              sample-client-go: write
+      filesystem:
+        description: "Community team for filesystem use cases"
+        privacy: closed
+        maintainers:
+          - d10n
+          - jpower432
+        teams:
+         fuse-maintainers:
+            description: "Fuse driver maintainers"
+            privacy: closed
+            maintainers:
+              - d10n
+              - jpower432
+            repos:
+              emporous-fuse-go: write
+      packages:
+        description: "Community team for package manager integration"
+        privacy: closed
+        maintainers:
+          - d10n
+          - jpower432
+        teams:
+          package-maintainers:
+            description: "Packager manager integration maintainers"
+            privacy: closed
+            maintainers:
+              - d10n
+              - jpower432
+            repos:
+              emporous-pip: write
